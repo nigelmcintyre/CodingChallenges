@@ -56,20 +56,20 @@ namespace CodingChallenges
             return resultList.Max();
 
         }
-        static void Main(string[] args) 
-        {
-            int[][] arr = new int[6][];
+        //static void Main(string[] args) 
+        //{
+        //    int[][] arr = new int[6][];
 
-            String[] numbers = { "1 1 1 0 0 0", "0 1 0 0 0 0", "1 1 1 0 0 0", "0 0 2 4 4 0", "0 0 0 2 0 0", "0 0 1 2 4 0" };
+        //    String[] numbers = { "1 1 1 0 0 0", "0 1 0 0 0 0", "1 1 1 0 0 0", "0 0 2 4 4 0", "0 0 0 2 0 0", "0 0 1 2 4 0" };
 
-            for(int i = 0; i < 6; i++) {
-                arr[i] = Array.ConvertAll(numbers[i].Split(' '), arrTemp => Convert.ToInt32(arrTemp));
-            }
+        //    for(int i = 0; i < 6; i++) {
+        //        arr[i] = Array.ConvertAll(numbers[i].Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+        //    }
 
-            int result = hourglassSum(arr);
-            Console.WriteLine(result);
+        //    int result = hourglassSum(arr);
+        //    Console.WriteLine(result);
 
-        }
+        //}
     }
     
 }
