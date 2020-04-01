@@ -68,21 +68,21 @@ class RotateLeft
         return result;
     }
 
-    static void Main(string[] args)
-    {
+    //static void Main(string[] args)
+    //{
         
-        int[] a = { 1, 2, 3, 4, 5 };
-        int d = 4;
-        int[] result1 = rotLeft1(a, d);
-        int[] result2 = rotLeft2(a, d);
-        foreach ( int i in result1){
-            Console.WriteLine(i);
-        }
-        foreach (int i in result2)
-        {
-            Console.WriteLine(i);
-        }
+    //    int[] a = { 1, 2, 3, 4, 5 };
+    //    int d = 4;
+    //    int[] result1 = rotLeft1(a, d);
+    //    int[] result2 = rotLeft2(a, d);
+    //    foreach ( int i in result1){
+    //        Console.WriteLine(i);
+    //    }
+    //    foreach (int i in result2)
+    //    {
+    //        Console.WriteLine(i);
+    //    }
 
-    }
+    //}
 }
 
