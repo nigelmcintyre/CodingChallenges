@@ -59,11 +59,11 @@ namespace CodingChallenges
             q[y] = temp;
         }
 
-        static void Main(string[] args)
-        {
-            int[] q = { 1, 2,5, 3, 7, 8, 6, 4 };
-            minimumBribes(q);
+        //static void Main(string[] args)
+        //{
+        //    int[] q = { 1, 2,5, 3, 7, 8, 6, 4 };
+        //    minimumBribes(q);
             
-        }
+        //}
     }
 }
