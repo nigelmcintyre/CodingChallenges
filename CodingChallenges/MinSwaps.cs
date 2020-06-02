@@ -38,11 +38,11 @@ namespace CodingChallenges
 
       
 
-        static void Main(string[] args)
-        {
-            int[] q = {4,3,1,2};
-            Console.WriteLine(minimumSwaps(q));
+    //    static void Main(string[] args)
+    //    {
+    //        int[] q = {4,3,1,2};
+    //        Console.WriteLine(minimumSwaps(q));
 
-        }
+    //    }
     }
 }
